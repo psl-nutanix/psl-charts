@@ -1,12 +1,22 @@
 apiVersion: v1
 entries:
-  testapp:
-  - apiVersion: v1
-    created: 2018-06-14T03:09:23.243217756-04:00
-    description: A Helm chart for Kubernetes
-    digest: f9b4af22f4fca464edb1fb72ad8af94f1cc4da361d2b3bfac0d09b4fdc5a5e2d
-    name: testapp
+  nginx:
+  - created: 2018-06-14T04:48:48.764050634-04:00
+    description: A basic NGINX HTTP server
+    digest: 735bef997129148c617ab0022edb1a8988e86a82b6a038e07be4460cd8617178
+    home: https://github.com/kubernetes/helm
+    keywords:
+    - http
+    - nginx
+    - www
+    - web
+    maintainers:
+    - email: mbutcher@deis.com
+      name: technosophos
+    name: nginx
+    sources:
+    - https://hub.docker.com/_/nginx/
     urls:
-    - https://psl-nutanix.github.io/psl-charts/testapp-0.1.0.tgz
+    - https://psl-nutanix.github.io/psl-charts/nginx-0.1.0.tgz
     version: 0.1.0
-generated: 2018-06-14T03:09:23.241363563-04:00
+generated: 2018-06-14T04:48:48.763160104-04:00
