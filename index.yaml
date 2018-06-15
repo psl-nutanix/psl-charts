@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   nginx:
-  - created: 2018-06-14T05:52:17.941958722-04:00
+  - created: 2018-06-15T00:24:51.413285654-04:00
     description: A basic NGINX HTTP server
-    digest: adef303f8c52b1654c487ba55eb7f0b0d28d0c623b49d03cdd4b11dd87fafa2e
+    digest: 526bd7af41ebe1f3ff74b20278afad6137110c9e803f86af2ff67d62ea02dd1f
     home: https://github.com/kubernetes/helm
     keywords:
     - http
@@ -19,4 +19,4 @@ entries:
     urls:
     - https://psl-nutanix.github.io/psl-charts/nginx-0.1.0.tgz
     version: 0.1.0
-generated: 2018-06-14T05:52:17.940319075-04:00
+generated: 2018-06-15T00:24:51.411885288-04:00
